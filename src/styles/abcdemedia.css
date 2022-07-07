@@ -1,0 +1,150 @@
+@media screen and (max-width: 480px) {
+ .title-A {
+  font-family: FoundersGrotesk-Bold;
+  color: var(--color3);
+  font-size: 3.2rem;
+  justify-content: center;
+  padding-top: 4.6rem;
+  margin-left: 2rem;
+  width: 240px;
+ }
+
+ .paso-A {
+  font-size: 2.8rem;
+  padding-top: 4rem;
+ }
+
+ .img_A {
+  width: 60px;
+  padding-top: 3rem;
+ }
+
+ main {
+  margin-top: -8rem;
+ }
+
+ .img_consult {
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+ }
+
+ .title-B {
+  font-size: 3.2rem;
+  justify-content: center;
+  margin-left: 2rem;
+  width: 240px;
+ }
+
+ .paso-B {
+  font-size: 2.8rem;
+ }
+
+ .img_B {
+  width: 60px;
+  padding-top: 6rem;
+  margin-bottom: 0;
+ }
+
+ .bx {
+  margin-top: -13rem;
+ }
+
+ .img_consult {
+  width: 240px;
+ }
+
+ .title-C {
+  font-size: 3.2rem;
+  justify-content: center;
+  margin-left: 2rem;
+  width: 240px;
+ }
+
+ .paso-C {
+  font-size: 2.8rem;
+ }
+
+ .img_C {
+  width: 60px;
+  padding-top: 6rem;
+  margin-bottom: 0;
+ }
+
+ .cx {
+  margin-top: -10rem;
+ }
+
+ .support {
+  width: 320px;
+ }
+
+ .tag {
+  font-size: 1.6rem;
+  height: 2.4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+ }
+
+ .slot {
+  font-size: 1.5rem;
+  height: auto;
+  padding: 1.6rem;
+  padding-top: 2.6rem;
+ }
+
+ .title-D {
+  font-size: 3.2rem;
+  justify-content: center;
+  margin-left: 2rem;
+  width: 240px;
+  padding-top: 0.4rem;
+ }
+
+ .paso-D {
+  font-size: 2.8rem;
+ }
+
+ .img_D {
+  width: 60px;
+  padding-top: 6rem;
+  margin-bottom: 0;
+ }
+
+ .dx {
+  margin-top: -12rem;
+ }
+
+ .remote_support {
+  width: 210px;
+ }
+
+ .group_support {
+  width: 130px;
+ }
+
+ .title-E {
+  font-size: 3.2rem;
+  justify-content: center;
+  margin-left: 2rem;
+  width: 240px;
+  padding-top: 0.4rem;
+ }
+
+ .paso-E {
+  font-size: 2.8rem;
+ }
+
+ .img_E {
+  width: 60px;
+  margin-bottom: 1rem;
+ }
+
+ .ex {
+  margin-top: -11rem;
+ }
+
+ .education_psy {
+  width: 300px;
+  padding-top: 2rem;
+ }
+}

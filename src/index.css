@@ -1,0 +1,392 @@
+html {
+ font-size: 62.5%; /* =10px */
+ overflow-x: hidden;
+}
+
+:root {
+ --size-title: 3.6rem;
+ --size-subtitle: 3rem;
+ --size-text: 2.2rem;
+ --size-statement: 2.6rem;
+ --main-color: #6e0d94;
+ --font-color: #ffffff;
+ --font-subcolor: #fecc1b;
+ --color2: #a301e7;
+ --color3: #ee1a39;
+ --color4: #f1e8c8;
+ --slot1: #ff5958;
+ --slot2: #2aa552;
+ --slot3: #2d3dd2;
+ --slot4: #3493b9;
+ --slot5: #fd7e20;
+ --curve: 50px;
+}
+
+body {
+ margin: 0;
+ padding: 0;
+}
+
+@font-face {
+ font-family: "FoundersGrotesk-Regular";
+ src: url("../src/assets/FoundersGrotesk-Regular.otf");
+}
+
+@font-face {
+ font-family: "FoundersGrotesk-Medium";
+ src: url("../src/assets/FoundersGrotesk-Medium.otf");
+}
+
+@font-face {
+ font-family: "FoundersGrotesk-Semibold";
+ src: url("../src/assets/FoundersGrotesk-Semibold.otf");
+}
+
+@font-face {
+ font-family: "FoundersGrotesk-Bold";
+ src: url("../src/assets/FoundersGrotesk-Bold.otf");
+}
+
+/* --------------------------------------------------------
+ +++++++++++++++++ COMPONENT COVER +++++++++++++++++++++++
+----------------------------------------------------------- */
+
+.background-cover {
+ height: 25%;
+}
+
+.concept {
+ height: 25%;
+}
+
+.use {
+ height: 25%;
+}
+
+.profits {
+ height: 25%;
+}
+
+.a {
+ height: 25%;
+}
+
+.background-cover {
+ background-color: var(--color2);
+ background-size: cover;
+}
+
+.title {
+ margin: 0;
+ padding-top: 40px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+}
+.title {
+ font-family: FoundersGrotesk-Bold;
+ font-size: 5vh;
+ font-weight: bolder;
+ color: var(--font-color);
+ background-color: var(--color2);
+ padding: 40px;
+}
+
+.subtitle {
+ margin: 0;
+ border: 0;
+ display: flex;
+ justify-content: center;
+ text-align: center;
+ padding: 20px 40px;
+}
+.subtitle {
+ font-family: FoundersGrotesk-Semibold;
+ font-size: var(--size-subtitle);
+ font-weight: bolder;
+ color: var(--font-subcolor);
+ background-color: var(--color2);
+}
+
+.figure-cover {
+ margin: 0;
+ border: 0;
+ background-color: var(--color2);
+ display: flex;
+}
+
+.img_cover {
+ display: block;
+ margin: auto;
+ height: 420px;
+ width: 460px;
+}
+
+@media screen and (max-width: 500px) {
+ .img_cover {
+  width: 390px;
+  height: auto;
+ }
+}
+
+.footer-container {
+ height: auto;
+ margin: auto;
+ padding-right: 25px;
+ display: flex;
+ justify-content: center;
+ width: 80%;
+}
+@media screen and (max-width: 480px) {
+ .footer-container {
+  height: auto;
+  margin: auto;
+  padding-right: 25px;
+  width: 80%;
+  display: block;
+ }
+
+ picture {
+  width: 100%;
+ }
+
+ .symbol_cruz {
+  margin: 0 auto;
+  display: flex;
+ }
+}
+
+.textbox {
+ width: 375px;
+ height: 120px;
+ background-color: var(--color2);
+}
+.textbox {
+ color: var(--font-color);
+ font-family: FoundersGrotesk-Regular;
+ font-size: var(--size-text);
+}
+
+picture {
+ display: inline-block;
+}
+
+.symbol_cruz {
+ width: 100px;
+ align-self: center;
+}
+
+/* ------------------------------------------------------
++++++++++++++ COMPONENT CONCEPT DEFINITION  +++++++++++++
+--------------------------------------------------------- */
+
+.bg-CD {
+ background-color: var(--color2);
+ background-size: cover;
+}
+
+.title1-CD {
+ font-family: FoundersGrotesk-Bold;
+ font-size: var(--size-subtitle);
+ color: var(--font-subcolor);
+ background-color: var(--color2);
+}
+.title1-CD {
+ position: relative;
+ display: flex;
+ margin-top: auto;
+ padding-top: 3rem;
+ width: 580px;
+}
+
+.container-CD {
+ display: flex;
+ margin: 0;
+ width: 1000px;
+}
+
+.figure-CD {
+ padding-left: 0;
+ margin-left: 0;
+}
+
+.text1-CD {
+ font-family: FoundersGrotesk-Medium;
+ font-size: var(--size-text);
+ color: var(--font-color);
+}
+.text1-CD {
+ margin-left: 4rem;
+ height: auto;
+ width: 560px;
+}
+
+.img1-CD {
+ display: block;
+ align-self: flex-start;
+ height: 250px;
+ padding-top: 11rem;
+}
+
+.title2-CD {
+ font-family: FoundersGrotesk-Medium;
+ font-size: var(--size-subtitle);
+ color: var(--font-subcolor);
+ background-color: var(--color2);
+}
+.title2-CD {
+ display: flex;
+ padding-top: 3rem;
+ margin-bottom: 0;
+}
+
+.container2-CD {
+ display: flex;
+ flex-direction: row-reverse;
+}
+
+.img2-CD {
+ background-color: var(--color2);
+}
+.img2-CD {
+ display: flex;
+ align-items: flex-start;
+ padding-top: 10rem;
+ width: 400px;
+ height: 260px;
+}
+
+.text2-CD {
+ font-family: FoundersGrotesk-Medium;
+ font-size: var(--size-text);
+ color: var(--font-color);
+}
+.text2-CD {
+ margin-top: 0;
+ margin-left: 2rem;
+ margin-right: 9rem;
+ width: 500px;
+ height: auto;
+}
+
+/* ------------------------------------------------------
++++++++++++++++++++++ COMPONENT USE  ++++++++++++++++++++
+--------------------------------------------------------- */
+/* .use {
+ height: 50%;
+} */
+
+.bg-Use {
+ margin: 0;
+ background-color: var(--color3);
+ padding-bottom: 4rem;
+}
+
+.title1-use {
+ font-family: FounderGrotesk-Bold;
+ font-size: var(--size-subtitle);
+ color: var(--font-subcolor);
+}
+
+.title1-use {
+ margin: auto;
+ padding-top: 5rem;
+ width: fit-content;
+}
+
+.text1-use {
+ font-family: FounderGrotesk-Semibold;
+ font-size: var(--size-text);
+ color: var(--font-color);
+ margin-top: 0;
+}
+
+.text1-use > p {
+ width: 65%;
+ margin: auto;
+ padding-top: 5rem;
+}
+
+.title2-use {
+ font-family: FounderGrotesk-Bold;
+ font-size: var(--size-subtitle);
+ color: var(--font-subcolor);
+}
+
+.title2-use {
+ width: fit-content;
+ margin: 20px auto -30px auto;
+ padding-top: 5rem;
+}
+
+.text2-use {
+ font-family: FounderGrotesk-Semibold;
+ font-size: var(--size-text);
+ color: var(--font-color);
+}
+
+.text2-use > ul {
+ width: fit-content;
+ margin: auto;
+ padding-top: 5rem;
+}
+
+/* ------------------------------------------------------
++++++++++++++++++++++ COMPONENT PROFITS +++++++++++++++++
+--------------------------------------------------------- */
+
+/* .profits {
+ height: 50%;
+} */
+
+.bg-p {
+ background-color: var(--color3);
+}
+
+.bg-p {
+ margin: 0;
+ padding-bottom: 4rem;
+}
+
+.title_p {
+ font-family: FoundersGrotesk-Semibold;
+ font-size: var(--size-subtitle);
+ color: var(--font-subcolor);
+}
+
+.title_p {
+ position: relative;
+ margin: auto;
+ padding-top: 2rem;
+ width: fit-content;
+ height: fit-content;
+ margin-bottom: 5rem;
+}
+
+.img_list_p {
+ display: inline-block;
+}
+
+.list_p {
+ display: flex;
+ width: fit-content;
+ margin-right: 2rem;
+ margin-left: 20%;
+}
+
+.img_list {
+ height: 50px;
+}
+
+.text_p {
+ font-family: FoundersGrotesk-Regular;
+ font-size: var(--size-text);
+ color: var(--font-color);
+ margin-top: 10px;
+}
+.text_p {
+ align-self: center;
+ width: fit-content;
+ height: fit-content;
+}
