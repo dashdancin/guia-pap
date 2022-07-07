@@ -149,21 +149,20 @@
  .text1-use > p {
   padding-top: 2.6rem;
   font-size: 1.4rem;
+  margin: 0rem 2.8rem;
  }
 
  .title2-use {
   font-size: var(--size-mini);
-  margin-left: 1.6rem;
+  margin: -1rem 0rem 0rem 1.6rem;
   text-align: center;
-  margin-top: -10px;
-  margin-bottom: 0px;
   padding-bottom: 0rem;
  }
 
  .text2-use > ul {
   font-size: 2rem;
   padding: 0rem 3.8rem;
-  margin-top: 3rem;
+  margin: 3rem 0rem 0rem 1rem;
   font-size: 1.4rem;
  }
 
