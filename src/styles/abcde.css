@@ -861,7 +861,7 @@ span {
 
 .title_support {
  width: 90%;
- margin-left: 40px;
+ margin-left: 14%;
  color: #fecc1b;
  text-align: center;
  font-size: var(--size-subtitle);
@@ -888,6 +888,7 @@ span {
 
 .support_element {
  margin-bottom: 0;
+ margin-left: 36%;
 }
 
 .support_element > p {
@@ -930,6 +931,11 @@ span {
   margin-left: 0px;
   font-size: var(--size-mini);
  }
+
+ .support_element {
+  margin-left: 140px;
+ }
+
  .support_element > p {
   margin-bottom: 30px;
   padding-right: 20px;
@@ -968,10 +974,9 @@ span {
 
 .title_slink {
  width: 60%;
- margin-left: 10px;
+ margin-left: 45px;
  color: #fecc1b;
  display: inline-block;
- text-align: center;
  margin-bottom: 80px;
  font-size: var(--size-subtitle);
 }

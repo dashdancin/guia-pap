@@ -7,7 +7,7 @@ const SupportApp = () => {
  return (
   <div className="support_bg">
    <h2 className="title_support">
-    Si es usted quien requiere abordaje de Primeros Auxilios Psicológicos ...
+    Si requiero de Primeros Auxilios Psicológicos ...
    </h2>
    <span className="support_element">
     <p>
