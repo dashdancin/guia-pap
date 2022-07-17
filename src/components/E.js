@@ -1,5 +1,5 @@
 import React from "react";
-import letter_E from "../assets/letter_E.webp";
+import letter_E from "../assets/letter_E.jpg";
 import education_psy from "../assets/education_psy.webp";
 
 const E = () => {

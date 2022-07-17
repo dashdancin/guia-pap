@@ -1,5 +1,5 @@
 import React from "react";
-import letter_B from "../assets/letter_B.webp";
+import letter_B from "../assets/letter_B.jpg";
 import breathing from "../assets/breathing.webp";
 
 const B = () => {
