@@ -1,5 +1,5 @@
 import React from "react";
-import letter_C from "../assets/letter_C.jpg";
+import letter_C from "../assets/letter_C.png";
 import support_network from "../assets/support_network.webp";
 
 const C = () => {

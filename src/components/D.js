@@ -1,5 +1,5 @@
 import React from "react";
-import letter_D from "../assets/letter_D.jpg";
+import letter_D from "../assets/letter_D.png";
 import remote_support from "../assets/remote_support.webp";
 import group_support from "../assets/group_support.webp";
 
