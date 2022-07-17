@@ -981,8 +981,8 @@ span {
 }
 
 .slink_element > img {
- width: 250px;
- height: 150px;
+ width: auto;
+ height: auto;
 }
 
 @media screen and (max-width: 1024px) {
