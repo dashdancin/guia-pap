@@ -1,5 +1,5 @@
 import React from "react";
-import check from "../assets/check.png";
+import check from "../assets/check.webp";
 
 const Do = () => {
  return (

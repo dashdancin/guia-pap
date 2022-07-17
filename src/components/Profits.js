@@ -1,5 +1,5 @@
 import React from "react";
-import bandaid from "../assets/band-aid_heart.png";
+import bandaid from "../assets/band-aid_heart.webp";
 
 const profits = () => {
  return (

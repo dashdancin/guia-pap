@@ -1,5 +1,5 @@
-import regulacion from "../assets/regulacion.png";
-import emotionalcrisis from "../assets/emotionalcrisis.png";
+import regulacion from "../assets/regulacion.webp";
+import emotionalcrisis from "../assets/emotionalcrisis.webp";
 
 const ConceptDefinition = () => {
  return (

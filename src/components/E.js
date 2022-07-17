@@ -1,6 +1,6 @@
 import React from "react";
-import letter_E from "../assets/letter_E.png";
-import education_psy from "../assets/education_psy.png";
+import letter_E from "../assets/letter_E.webp";
+import education_psy from "../assets/education_psy.webp";
 
 const E = () => {
  return (

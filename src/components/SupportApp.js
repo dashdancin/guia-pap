@@ -1,7 +1,7 @@
 import React from "react";
-import aquiestoy from "../assets/aquiestoy.png";
-import yana from "../assets/yana.png";
-import terapify from "../assets/terapify.jpg";
+import aquiestoy from "../assets/aquiestoy.webp";
+import yana from "../assets/yana.webp";
+import terapify from "../assets/terapify.webp";
 
 const SupportApp = () => {
  return (

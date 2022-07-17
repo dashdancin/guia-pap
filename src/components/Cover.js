@@ -1,5 +1,5 @@
-import principal from "../assets/principal.png";
-import orange_cruz from "../assets/orange_cruz.png";
+import principal from "../assets/principal.webp";
+import orange_cruz from "../assets/orange_cruz.webp";
 
 export default function Cover() {
  return (

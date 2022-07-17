@@ -1,10 +1,10 @@
 import React from "react";
-import heart from "../assets/heart_in_cross-med.png";
-import unam_line from "../assets/unam_line.png";
-import unam_covid from "../assets/unam_covid.png";
-import unam_psychology from "../assets/unam_psichology.png";
-import video from "../assets/video.png";
-import udechile from "../assets/udechile.png";
+import heart from "../assets/heart_in_cross-med.webp";
+import unam_line from "../assets/unam_line.webp";
+import unam_covid from "../assets/unam_covid.webp";
+import unam_psychology from "../assets/unam_psichology.webp";
+import video from "../assets/video.webp";
+import udechile from "../assets/udechile.webp";
 
 const SupportLinks = () => {
  return (

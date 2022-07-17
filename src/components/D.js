@@ -1,7 +1,7 @@
 import React from "react";
-import letter_D from "../assets/letter_D.png";
-import remote_support from "../assets/remote_support.png";
-import group_support from "../assets/group_support.png";
+import letter_D from "../assets/letter_D.webp";
+import remote_support from "../assets/remote_support.webp";
+import group_support from "../assets/group_support.webp";
 
 const D = () => {
  return (

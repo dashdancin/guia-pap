@@ -1,5 +1,5 @@
 import React from "react";
-import dont_symbol from "../assets/dont_symbol.png";
+import dont_symbol from "../assets/dont_symbol.webp";
 
 const Dont = () => {
  return (

@@ -1,6 +1,6 @@
 import React from "react";
-import letter_A from "../assets/letter_A.png";
-import help_consult from "../assets/help_consult.png";
+import letter_A from "../assets/letter_A.webp";
+import help_consult from "../assets/help_consult.webp";
 
 const A = () => {
  return (
