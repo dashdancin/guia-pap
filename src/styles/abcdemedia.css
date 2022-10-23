@@ -2,20 +2,20 @@
  .title-A {
   font-family: FoundersGrotesk-Bold;
   color: var(--color3);
-  font-size: 3.2rem;
+  font-size: 2rem;
   justify-content: center;
-  padding-top: 4.6rem;
+  padding-top: 4rem;
   margin-left: 2rem;
   width: 240px;
  }
 
  .paso-A {
-  font-size: 2.8rem;
+  font-size: 2.2rem;
   padding-top: 4rem;
  }
 
  .img_A {
-  width: 60px;
+  width: 36px;
   padding-top: 3rem;
  }
 
@@ -29,19 +29,20 @@
  }
 
  .title-B {
-  font-size: 3.2rem;
+  font-size: 2rem;
   justify-content: center;
   margin-left: 2rem;
   width: 240px;
+  margin-bottom: 3rem;
  }
 
  .paso-B {
-  font-size: 2.8rem;
+  font-size: 2rem;
  }
 
  .img_B {
-  width: 60px;
-  padding-top: 6rem;
+  width: 36px;
+  padding-top: 5rem;
   margin-bottom: 0;
  }
 
@@ -50,23 +51,23 @@
  }
 
  .img_consult {
-  width: 240px;
+  width: 120px;
  }
 
  .title-C {
-  font-size: 3.2rem;
+  font-size: 2rem;
   justify-content: center;
   margin-left: 2rem;
   width: 240px;
  }
 
  .paso-C {
-  font-size: 2.8rem;
+  font-size: 2.2rem;
  }
 
  .img_C {
-  width: 60px;
-  padding-top: 6rem;
+  width: 36px;
+  padding-top: 7.5rem;
   margin-bottom: 0;
  }
 
@@ -75,37 +76,37 @@
  }
 
  .support {
-  width: 320px;
+  width: 180px;
  }
 
  .tag {
-  font-size: 1.6rem;
-  height: 2.4rem;
+  font-size: 1rem;
+  height: 1.4rem;
   padding-left: 2rem;
   padding-right: 2rem;
+  margin-bottom: 10px;
  }
 
  .slot {
-  font-size: 1.5rem;
+  font-size: 1rem;
   height: auto;
   padding: 1.6rem;
-  padding-top: 2.6rem;
  }
 
  .title-D {
-  font-size: 3.2rem;
+  font-size: 2rem;
   justify-content: center;
   margin-left: 2rem;
   width: 240px;
-  padding-top: 0.4rem;
+  margin-bottom: 1.75rem;
  }
 
  .paso-D {
-  font-size: 2.8rem;
+  font-size: 2.2rem;
  }
 
  .img_D {
-  width: 60px;
+  width: 36px;
   padding-top: 6rem;
   margin-bottom: 0;
  }
@@ -115,27 +116,33 @@
  }
 
  .remote_support {
-  width: 210px;
+  width: 160px;
+  padding-bottom: 10rem;
  }
 
  .group_support {
-  width: 130px;
+  width: 90px;
+  padding-bottom: 10.5rem;
+  margin-top: 0;
+ }
+
+ .bg-E {
+  margin-top: -7rem;
  }
 
  .title-E {
-  font-size: 3.2rem;
+  font-size: 2rem;
   justify-content: center;
   margin-left: 2rem;
   width: 240px;
-  padding-top: 0.4rem;
  }
 
  .paso-E {
-  font-size: 2.8rem;
+  font-size: 2.2rem;
  }
 
  .img_E {
-  width: 60px;
+  width: 36px;
   margin-bottom: 1rem;
  }
 
@@ -144,7 +151,80 @@
  }
 
  .education_psy {
-  width: 300px;
+  width: 160px;
   padding-top: 2rem;
+ }
+
+ .title_cons {
+  font-size: 1.25rem;
+ }
+
+ .const_bg > ul > li {
+  margin-bottom: 2rem;
+ }
+
+ .title_do {
+  font-size: 1.25rem;
+ }
+
+ .do_element > p {
+  font-size: 1rem;
+ }
+
+ .check {
+  width: 20px;
+  height: 18px;
+ }
+
+ .title_dont {
+  font-size: 1.25rem;
+ }
+
+ .dont_element > p {
+  font-size: 1rem;
+ }
+ .dont_symbol {
+  width: 18px;
+  height: 18px;
+ }
+
+ .title_support {
+  font-size: 1.25rem;
+ }
+
+ .support_element {
+  margin-left: 0;
+ }
+
+ .support_element > p {
+  font-size: 1rem;
+ }
+
+ .imgs {
+  width: 36px;
+  height: 36px;
+  margin-bottom: 0;
+ }
+
+ .title_slink {
+  font-size: 1.25rem;
+ }
+
+ .slink_element > img {
+  width: 90px;
+  height: 40px;
+ }
+
+ .heart {
+  width: 46px;
+ }
+
+ .main_slink {
+  margin-top: -3rem;
+ }
+
+ .slink_element > p {
+  margin-top: 0;
+  font-size: 1rem;
  }
 }

@@ -289,7 +289,7 @@ main {
   font-size: 1.6rem;
  }
  .breathing {
-  width: 340px;
+  width: 210px;
  }
 }
 /* ------------------------------------------------------
@@ -686,7 +686,7 @@ il {
  .title_cons {
   width: 90%;
   margin-left: 10px;
-  font-size: var(--size-mini);
+  font-size: 1.25rem;
  }
 
  ul {

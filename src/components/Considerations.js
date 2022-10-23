@@ -7,7 +7,7 @@ const Considerations = () => {
     Consideraciones para las atender crisis emocionales en el lugar de trabajo
    </h2>
    <ul>
-    <il>
+    <li>
      <b>
       1. &nbsp; &nbsp; Prevención de crisis y acciones a favor del bienestar
       emocional de los colaboradores
@@ -16,16 +16,16 @@ const Considerations = () => {
      <br />➧ Revisión de las condiciones laborales y las causas administrativas
      que puedan contribuir a la crisis. En correspondencia dedicar reformas en
      la organización que promuevan el equilibrio ocupacional
-    </il>
-    <il>
+    </li>
+    <li>
      <b>2. &nbsp; &nbsp; Planteamiento de los Primeros Auxilios Psicológicos</b>
      <br />
      <br />➧ &nbsp; &nbsp; Concientizar al personal que los eventos de crisis
      emocional pueden suceder en cualquier momento. Y resaltar que atender con
      Primeros Auxilios Psicológicos puede prevenir el Trastorno de Estrés
      Postraumático que deriva a la postre en disminución del desempeño laboral
-    </il>
-    <il>
+    </li>
+    <li>
      <b>
       3. &nbsp; &nbsp; Preparación y entrenamiento de los Primeros Auxilios
       Psicológicos
@@ -41,20 +41,20 @@ const Considerations = () => {
      <br />➧ &nbsp; &nbsp; Al preparar el contexto para atender una crisis es
      recomendable asignar un espacio seguro y tranquilo en el que únicamente
      estén aquellas personas que cumplirán una función en el acompañamiento
-    </il>
-    <il>
+    </li>
+    <li>
      <b>
       4. &nbsp; &nbsp; Comunicar al personal que lugar de prioridad ocupa
       atender una crisis emocional
      </b>
-    </il>
-    <il>
+    </li>
+    <li>
      <b>
       5. &nbsp; &nbsp; Aplicar los pasos del modelo ABCDE de Primeros Auxilios
       Psicológicos
      </b>
-    </il>
-    <il>
+    </li>
+    <li>
      <b>6. &nbsp; &nbsp; Brindar seguridad psicológica</b>
      <br />
      <br />
@@ -70,14 +70,14 @@ const Considerations = () => {
      caso es el de otorgar permisos, tales como; permisos de ausencia,
      vacaciones o la flexibilización de la jornada en caso de ser requeridos
      después de una crisis emocional
-    </il>
-    <il>
+    </li>
+    <li>
      <b>7. &nbsp; &nbsp; Auto-evaluación del proceso y seguimiento de casos</b>
      <br />
      <br />➧ &nbsp; &nbsp; Evaluar cómo se llevó a cabo el proceso, dar
      seguimiento a los casos por medio de valoraciones psicológicas, y aplicar
      mejoras constantes
-    </il>
+    </li>
    </ul>
   </div>
  );

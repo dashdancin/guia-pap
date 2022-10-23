@@ -177,16 +177,139 @@
  }
 
  .text_p {
-  font-size: 1.5rem;
+  font-size: 1rem;
+  margin-top: 0;
  }
 
- .img_A {
+ /* .img_A {
   width: 200px;
- }
+ } */
 
  .img_list {
-  width: 50px;
-  height: 40px;
+  width: 36px;
+  height: 28px;
   margin-right: 10px;
+ }
+}
+
+@media screen and (max-width: 480px) {
+ .img_cover {
+  width: 320px;
+ }
+
+ .title {
+  font-size: 2rem;
+  padding: 30px;
+ }
+
+ .textbox {
+  font-size: 1.25rem;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  margin-bottom: 0rem;
+ }
+
+ .subtitle {
+  font-size: 1.6rem;
+ }
+
+ .img_cover {
+  width: 170px;
+ }
+
+ .symbol_cruz {
+  width: 80px;
+ }
+
+ .title1-CD {
+  font-size: 1.25rem;
+  width: 260px;
+  margin: 0px;
+ }
+
+ .text1-CD {
+  width: 270px;
+  font-size: 1rem;
+ }
+
+ .title2-CD {
+  font-size: 1.25rem;
+  margin: 0em;
+ }
+
+ .text2-CD {
+  padding: 1em;
+ }
+
+ .text2-CD {
+  font-size: 1rem;
+  width: auto;
+  padding: 1rem;
+ }
+
+ .text2-CD > p:nth-child(2) {
+  padding-left: 2rem;
+  padding-right: 2rem;
+ }
+
+ .img1-CD {
+  width: 120px;
+  margin-bottom: 2rem;
+ }
+
+ .img2-CD {
+  width: 180px;
+ }
+
+ .paso-A {
+  font-size: 1.8rem;
+ }
+
+ .title-A {
+  font-size: 2rem;
+ }
+
+ .slot {
+  font-size: 1rem;
+  padding-top: 2rem;
+ }
+
+ .text1-use > p {
+  font-family: "FoundersGrotesk-Regular";
+  font-size: 1rem;
+  margin-top: 0rem;
+  padding-top: 1.25rem;
+ }
+
+ .title1-use {
+  padding-top: 3rem;
+  font-size: 1.25rem;
+  font-family: "FoundersGrotesk-Regular";
+ }
+
+ .title2-use {
+  padding-top: 3rem;
+  font-size: 1.25em;
+  width: inherit;
+  font-family: "FoundersGrotesk-Regular";
+ }
+
+ .text2-use > ul {
+  margin: 2rem 0rem 0rem 0rem;
+  font-size: 1rem;
+  font-family: Founder;
+  font-family: "FoundersGrotesk-Regular";
+ }
+
+ .title_p {
+  font-family: "FoundersGrotesk-Regular";
+  font-size: 1.25rem;
+ }
+
+ .text_p {
+  font-size: 1rem;
+  font-family: "FoundersGrotesk-Regular";
  }
 }
