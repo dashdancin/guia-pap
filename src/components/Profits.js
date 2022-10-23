@@ -36,7 +36,6 @@ const profits = () => {
     <img className="img_list" src={bandaid} alt="corazon con vandita" />
     <span className="text_p">
      Obtener información sobre los efectos psicológicos, emocionales y físicos
-     <br />
      que se pueden presentar al vivir una situación de crisis
     </span>
    </section>

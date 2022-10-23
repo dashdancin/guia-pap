@@ -15,10 +15,9 @@ const B = () => {
    <main className="bx">
     <p className="tag tagb tag-b1">Objetivo</p>
     <div className="slot slot-b slot-b1">
-     Los ejercicios de respiración tienen múltiples beneficios: <br />• Generan
-     calma &nbsp;&nbsp; • Relajan el cuerpo &nbsp;&nbsp;• Nos ayuda a
-     oxigenarnos mejor &nbsp;&nbsp;• Podemos evocar imágenes que nos
-     tranquilicen
+     Los ejercicios de respiración tienen múltiples beneficios: • Generan calma
+     &nbsp;&nbsp; • Relajan el cuerpo &nbsp;&nbsp;• Nos ayuda a oxigenarnos
+     mejor &nbsp;&nbsp;• Podemos evocar imágenes que nos tranquilicen
     </div>
     <p className="tag tagb tag-b2">Consiste en</p>
     <div className="slot slot-b slot-b2">
