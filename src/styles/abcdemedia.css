@@ -159,8 +159,17 @@
   font-size: 1.25rem;
  }
 
+ .const_bg {
+  padding: 20px 30px;
+  background-color: var(--color3);
+  color: white;
+ }
+
  .const_bg > ul > li {
-  margin-bottom: 2rem;
+  display: block;
+  font-size: 1rem;
+  padding: 0;
+  margin-bottom: 20px;
  }
 
  .title_do {
