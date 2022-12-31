@@ -162,7 +162,7 @@
  .const_bg {
   padding: 20px 30px;
   background-color: var(--color3);
-  color: white;
+  color: --font-color;
  }
 
  .const_bg > ul > li {

@@ -9,8 +9,11 @@ html {
  --size-text: 2.2rem;
  --size-statement: 2.6rem;
  --main-color: #6e0d94;
- --font-color: #ffffff;
+ --white: #ffffff;
+ --black: #000000;
+ --black-soft: #252525;
  --font-subcolor: #fecc1b;
+ --darkblue: #243d6b;
  --color2: #a301e7;
  --color3: #ee1a39;
  --color4: #f1e8c8;
@@ -72,8 +75,9 @@ body {
 }
 
 .background-cover {
- background-color: var(--color2);
+ background-color: var(--darkblue);
  background-size: cover;
+ padding: 4rem 0;
 }
 
 .title {
@@ -85,11 +89,11 @@ body {
  text-align: center;
 }
 .title {
- font-family: FoundersGrotesk-Bold;
+ font-family: FoundersGrotesk-Regular;
  font-size: 5vh;
  font-weight: bolder;
- color: var(--font-color);
- background-color: var(--color2);
+ color: var(--white);
+ background-color: var(--darkblue);
  padding: 40px;
 }
 
@@ -105,14 +109,14 @@ body {
  font-family: FoundersGrotesk-Semibold;
  font-size: var(--size-subtitle);
  font-weight: bolder;
- color: var(--font-subcolor);
- background-color: var(--color2);
+ color: var(--white);
+ background-color: var(--darkblue);
 }
 
 .figure-cover {
  margin: 0;
  border: 0;
- background-color: var(--color2);
+ background-color: var(--darkblue);
  display: flex;
 }
 
@@ -160,10 +164,10 @@ body {
 .textbox {
  width: 375px;
  height: 120px;
- background-color: var(--color2);
+ background-color: var(--darkblue);
 }
 .textbox {
- color: var(--font-color);
+ color: var(--white);
  font-family: FoundersGrotesk-Regular;
  font-size: var(--size-text);
 }
@@ -182,15 +186,16 @@ picture {
 --------------------------------------------------------- */
 
 .bg-CD {
- background-color: var(--color2);
+ background-color: var(--white);
  background-size: cover;
+ padding: 4rem 2rem 4rem 0rem;
 }
 
 .title1-CD {
- font-family: FoundersGrotesk-Bold;
+ font-family: FoundersGrotesk-Regular;
  font-size: var(--size-subtitle);
- color: var(--font-subcolor);
- background-color: var(--color2);
+ color: var(--black);
+ background-color: var(--white);
 }
 .title1-CD {
  position: relative;
@@ -212,9 +217,9 @@ picture {
 }
 
 .text1-CD {
- font-family: FoundersGrotesk-Medium;
+ font-family: FoundersGrotesk-Regular;
  font-size: var(--size-text);
- color: var(--font-color);
+ color: var(--black);
 }
 .text1-CD {
  margin-left: 4rem;
@@ -230,10 +235,10 @@ picture {
 }
 
 .title2-CD {
- font-family: FoundersGrotesk-Medium;
+ font-family: FoundersGrotesk-Regular;
  font-size: var(--size-subtitle);
- color: var(--font-subcolor);
- background-color: var(--color2);
+ color: var(--black);
+ background-color: var(--white);
 }
 .title2-CD {
  display: flex;
@@ -247,7 +252,7 @@ picture {
 }
 
 .img2-CD {
- background-color: var(--color2);
+ background-color: var(--white);
 }
 .img2-CD {
  display: flex;
@@ -258,9 +263,9 @@ picture {
 }
 
 .text2-CD {
- font-family: FoundersGrotesk-Medium;
+ font-family: FoundersGrotesk-Regular;
  font-size: var(--size-text);
- color: var(--font-color);
+ color: var(--black);
 }
 .text2-CD {
  margin-top: 0;
@@ -284,9 +289,9 @@ picture {
 }
 
 .title1-use {
- font-family: FounderGrotesk-Bold;
+ font-family: FoundersGrotesk-Regular;
  font-size: var(--size-subtitle);
- color: var(--font-subcolor);
+ color: var(--black);
 }
 
 .title1-use {
@@ -296,7 +301,7 @@ picture {
 }
 
 .text1-use {
- font-family: FounderGrotesk-Semibold;
+ font-family: FoundersGrotesk-Regular;
  font-size: var(--size-text);
  color: var(--font-color);
  margin-top: 0;
@@ -309,9 +314,9 @@ picture {
 }
 
 .title2-use {
- font-family: FounderGrotesk-Bold;
+ font-family: FoundersGrotesk-Regular;
  font-size: var(--size-subtitle);
- color: var(--font-subcolor);
+ color: var(--black);
 }
 
 .title2-use {
@@ -321,7 +326,7 @@ picture {
 }
 
 .text2-use {
- font-family: FounderGrotesk-Semibold;
+ font-family: FoundersGrotesk-Regular;
  font-size: var(--size-text);
  color: var(--font-color);
 }
@@ -341,18 +346,18 @@ picture {
 } */
 
 .bg-p {
- background-color: var(--color3);
+ background-color: var(--darkblue);
 }
 
 .bg-p {
  margin: 0;
- padding-bottom: 4rem;
+ padding: 4rem 0;
 }
 
 .title_p {
- font-family: FoundersGrotesk-Semibold;
+ font-family: FoundersGrotesk-Regular;
  font-size: var(--size-subtitle);
- color: var(--font-subcolor);
+ color: var(--white);
 }
 
 .title_p {
@@ -382,7 +387,7 @@ picture {
 .text_p {
  font-family: FoundersGrotesk-Regular;
  font-size: var(--size-text);
- color: var(--font-color);
+ color: var(--white);
  margin-top: 10px;
 }
 .text_p {
