@@ -20,7 +20,7 @@ const SupportLinks = () => {
      />
      <p>
       Atención Psicológica a Distancia <br />
-      Teléfono: 5025-0855 / 562-22288 <br />
+      Teléfono: 55 5025 0855 / 55 5622 2288 <br />
       Horario de atención: L - V de 8:00 a 18:00 hrs
      </p>
     </span>
