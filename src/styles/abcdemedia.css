@@ -1,7 +1,7 @@
 @media screen and (max-width: 480px) {
  .title-A {
   font-family: FoundersGrotesk-Bold;
-  color: var(--color3);
+  color: #ff5958;
   font-size: 2rem;
   justify-content: center;
   padding-top: 4rem;
