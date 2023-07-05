@@ -35,6 +35,9 @@ const Info = () => {
      </p>
      <p>Supervisión y Revisión documental.</p>
     </span>
+    <span>
+        <p>Contacto: comunicacion@auxiliopsicologico.com</p>
+    </span>
    </section>
   </div>
  );
