@@ -12,6 +12,7 @@ import Do from "./components/Do";
 import Dont from "./components/Dont";
 import SupportApp from "./components/SupportApp";
 import SupportLinks from "./components/SupportLinks";
+import Info from "./components/Info";
 
 function App() {
  return (
@@ -49,15 +50,12 @@ function App() {
     </div>
     <div>
      <Do />
-    </div>
-    <div>
      <Dont />
     </div>
     <div>
      <SupportApp />
-    </div>
-    <div>
      <SupportLinks />
+     <Info />
     </div>
    </div>
   </>

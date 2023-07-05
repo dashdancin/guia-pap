@@ -4,7 +4,8 @@ const Considerations = () => {
  return (
   <div className="const_bg">
    <h2 className="title_cons">
-    Consideraciones para las atender crisis emocionales en el lugar de trabajo
+    Consideraciones para atender una situación de crisis emocional en el lugar
+    de trabajo
    </h2>
    <ul>
     <li>

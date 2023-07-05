@@ -28,7 +28,7 @@ const B = () => {
     </div>
     <p className="tag tagb tag-b3">Ejemplo</p>
     <div className="slot slot-b">
-     “A continuación, vamos a hacer un ejercicio de respirción. Inhalé: un
+     “A continuación, vamos a hacer un ejercicio de respiración. Inhalé: un
      tiempo, dos, tres, cuatro. Ahora exhalé: un tiempo, dos, tres, cuatro y
      aguante: un tiempo, dos, tres, cuatro. Y volvemos a empezar”
     </div>
