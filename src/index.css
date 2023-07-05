@@ -420,3 +420,51 @@ picture {
  flex-direction: row;
  justify-content: space-between;
 }
+
+.background-cover {
+padding: 5% !important;
+}
+  
+.bg-CD {
+padding: 5% !important;
+}
+
+.bg-A {
+padding: 5% !important;
+}
+
+.bg-B {
+padding: 5% !important;
+}
+
+.bg-C {
+padding: 5% !important;
+}
+
+.bg-D {
+padding: 5% !important;
+}
+
+.bg-E {
+padding: 5% !important;
+}
+
+.const_bg {
+padding: 5% !important;
+}
+
+.do_bg {
+padding: 5% !important;
+}
+
+.dont-bg {
+padding: 5% !important;
+}
+
+.support_bg {
+padding: 5% !important;
+}
+
+.supportlink_bg {
+padding: 5% !important;
+}
