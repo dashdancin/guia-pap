@@ -3,7 +3,7 @@ self.addEventListener('install', event => {
       caches.open('my-cache').then(cache => {
         return cache.addAll([
           '/',
-          '/index.html',
+          '../public/index.html',
           '/index.css',
           '/App.js'
           // Agrega aquí más recursos que deseas cachear
