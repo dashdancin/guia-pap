@@ -1,43 +1,30 @@
 {
-<<<<<<< HEAD
-    "name": "Mi Progressive Web App",
-    "short_name": "Mi PWA",
-    "start_url": "/",
-    "display": "standalone",
-    "background_color": "#ffffff",
-    "theme_color": "#000000",
-    "icons": [
-      {
-        "src": "../src/assets/corazon-icono.png",
-        "sizes": "192x192",
-        "type": "image/png"
-      }
-    ]
-  }
-  
-=======
- "short_name": "React App",
- "name": "Create React App Sample",
+ "short_name": "Auxilio Psicológico App",
+ "name": "PAP App",
  "icons": [
   {
-    "src": "favicon.ico",
+    "src": "/src/help-svgrepo-com.svg",
     "sizes": "64x64 32x32 24x24 16x16",
     "type": "image/x-icon"
   },
   {
-    "src": "logo192.png",
+    "src": "/src/help-svgrepo-com.svg",
+    "type": "image/png",
+    "sizes": "144x144"
+  },
+  {
+    "src": "/src/help-svgrepo-com.svg",
     "type": "image/png",
     "sizes": "192x192"
   },
   {
-    "src": "logo512.png",
+    "src": "/src/help-svgrepo-com.svg",
     "type": "image/png",
     "sizes": "512x512"
   }
  ],
- "start_url": ".",
+ "start_url": "/src/help-svgrepo-com.svg",
  "display": "standalone",
  "theme_color": "#000000",
  "background_color": "#ffffff"
 }
->>>>>>> b7dab3488934a6d195e3dabb25d5382057ab762a
