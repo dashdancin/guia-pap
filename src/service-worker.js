@@ -1,32 +1,24 @@
 // src/service-worker.js
 
-// Define una versión del caché
 const CACHE_VERSION = 'my-cache-v2';
 
-self.addEventListener('install', event => {
+function onInstall(event) {
   event.waitUntil(
     caches.open(CACHE_VERSION)
       .then(cache => {
         return cache.addAll([
-          // Archivos HTML
           '/',
-          
-          // Archivos CSS y JavaScript
           '/index.css',
           '/index.js',
-          
-          // Agrega otros recursos que desees precachear
-          // '/images/logo.png',
-          // '/other-resource.png',
         ]);
       })
       .then(() => {
         return self.skipWaiting();
       })
   );
-});
+}
 
-self.addEventListener('activate', event => {
+function onActivate(event) {
   event.waitUntil(
     caches.keys()
       .then(cacheNames => {
@@ -39,13 +31,17 @@ self.addEventListener('activate', event => {
         );
       })
   );
-});
+}
 
-self.addEventListener('fetch', event => {
+function onFetch(event) {
   event.respondWith(
     caches.match(event.request)
       .then(response => {
         return response || fetch(event.request);
       })
   );
-});
+}
+
+self.addEventListener('install', onInstall);
+self.addEventListener('activate', onActivate);
+self.addEventListener('fetch', onFetch);
