@@ -2,7 +2,8 @@
 
 const CACHE_VERSION = 'my-cache-v2';
 
-function onInstall(event) {
+self.addEventListener('install', event => {
+  /* eslint-disable no-restricted-globals */
   event.waitUntil(
     caches.open(CACHE_VERSION)
       .then(cache => {
@@ -16,9 +17,11 @@ function onInstall(event) {
         return self.skipWaiting();
       })
   );
-}
+  /* eslint-enable no-restricted-globals */
+});
 
-function onActivate(event) {
+self.addEventListener('activate', event => {
+  /* eslint-disable no-restricted-globals */
   event.waitUntil(
     caches.keys()
       .then(cacheNames => {
@@ -31,17 +34,16 @@ function onActivate(event) {
         );
       })
   );
-}
+  /* eslint-enable no-restricted-globals */
+});
 
-function onFetch(event) {
+self.addEventListener('fetch', event => {
+  /* eslint-disable no-restricted-globals */
   event.respondWith(
     caches.match(event.request)
       .then(response => {
         return response || fetch(event.request);
       })
   );
-}
-
-self.addEventListener('install', onInstall);
-self.addEventListener('activate', onActivate);
-self.addEventListener('fetch', onFetch);
+  /* eslint-enable no-restricted-globals */
+});
