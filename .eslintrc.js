@@ -1,8 +1,13 @@
-module.exports = {
-    // ... Otras configuraciones de ESLint ...
-    rules: {
-      // ... Otras reglas ...
-      "no-restricted-globals": ["error", "self"], // Permitir el uso de "self"
-    },
-  };
+module.exports = 
+  {
+    "extends": "react-app",
+    "overrides": [
+      {
+        "files": ["src/service-worker.js"],
+        "rules": {
+          "no-restricted-globals": ["error", "self"]
+        }
+      }
+    ]
+  }
   
