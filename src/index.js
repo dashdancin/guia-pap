@@ -6,6 +6,13 @@ import "./styles/abcdemedia.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+
 // Verificar si el navegador admite Service Workers
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
