@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Apoyo psicológico",
+  "name": "Primeros Auxilios Psicológicos",
   "icons": [
     {
       "src": "favicon.ico",
@@ -29,7 +29,7 @@
       "type": "image/png"
     },
     {
-      "src": "./loveology.png",
+      "src": "./icon-app.png",
       "sizes": "196x196",
       "type": "image/png",
       "purpose": "maskable"
