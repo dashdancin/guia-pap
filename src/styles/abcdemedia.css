@@ -219,6 +219,10 @@
   font-size: 1.25rem;
  }
 
+ .info-credits h2 {
+  font-size: 1.25rem;
+}
+
  .slink_element > img {
   width: 90px;
   height: 40px;

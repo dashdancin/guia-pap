@@ -155,6 +155,19 @@ body {
   margin: 0 auto;
   display: flex;
  }
+
+ .info-credits > span {
+    font-size: 1rem !important;
+    margin-bottom: 1.5rem;
+ }
+
+ .credits-img {
+    transform: scale(0.5);
+ }
+
+ .img-container-credits {
+   padding: 0px !important;
+ }
 }
 
 .textbox {
@@ -393,7 +406,7 @@ picture {
 
 .info-section {
  background-color: #6e0d94;
- padding: 4rem 80px 60px 8rem;
+ padding: 5% !important;
  color: white;
 }
 
@@ -419,6 +432,7 @@ picture {
  display: flex;
  flex-direction: row;
  justify-content: space-between;
+ margin-bottom: 2rem;
 }
 
 .background-cover {

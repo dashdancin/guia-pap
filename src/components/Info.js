@@ -6,9 +6,9 @@ const Info = () => {
  return (
   <div className="info-section">
    <section className="info-credits">
+   <h2>Contribuciones</h2>
     <div className="img-container-credits">
      <img className="credits-img" src={unam_logo} alt="corazon con vandita" />
-     <h2>Contribuciones</h2>
      <img className="credits-img" src={fpsic_logo} alt="corazon con vandita" />
     </div>
     <span>
