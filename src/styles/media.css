@@ -313,3 +313,10 @@
   font-family: "FoundersGrotesk-Regular";
  }
 }
+
+@media screen and (min-width: 1080px) {
+    
+    .supportlink_bg, .info-section {
+        margin-top: -120px;
+    }
+}

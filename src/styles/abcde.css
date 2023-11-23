@@ -55,19 +55,19 @@
 }
 
 @media screen and (max-width: 1020px) {
- .title-A {
-  font-size: 5.6rem;
-  padding-top: 4.8rem;
- }
+    .title-A {
+    font-size: 5.6rem;
+    padding-top: 4.8rem;
+    }
 
- .paso-A {
-  padding-top: 5rem;
- }
+    .paso-A {
+    padding-top: 5rem;
+    }
 
- .img_A {
-  width: 90px;
-  padding-top: 2rem;
- }
+    .img_A {
+    width: 90px;
+    padding-top: 2rem;
+    }
 }
 
 main {
@@ -281,6 +281,15 @@ main {
 @media screen and (max-width: 640px) {
  .slot-b {
   font-size: 1.8rem;
+ }
+
+ .info-section {
+    margin-top: -40px !important;
+ }
+
+ .supportlink_bg {
+    padding: 5% 10% 5% 10% !important;
+    margin-top: -20px !important;
  }
 }
 
@@ -625,6 +634,10 @@ main {
  .slot-e4 {
   font-size: calc(var(--size-statement) - 0.62rem);
  }
+
+ .info-credits > span {
+    margin-bottom: 1.5rem;
+  }
 }
 
 /* ------------------------------------------------------
