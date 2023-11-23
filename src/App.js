@@ -68,35 +68,41 @@ import Info from "./components/Info";
 // src/App.js
 
 function App() {
-  useEffect(() => {
-    let deferredPrompt;
-
-    const showInstallPrompt = () => {
-      const installPrompt = window.confirm('¡Instala nuestra aplicación para una mejor experiencia!');
-
-      if (installPrompt) {
-        deferredPrompt.prompt();
-
-        deferredPrompt.userChoice.then((choiceResult) => {
-          if (choiceResult.outcome === 'accepted') {
-            console.log('Usuario aceptó la instalación');
+    useEffect(() => {
+      let deferredPrompt;
+  
+      const showInstallPrompt = () => {
+        if (deferredPrompt) {
+          const installPrompt = window.confirm('¡Instala nuestra aplicación para una mejor experiencia!');
+  
+          if (installPrompt) {
+            deferredPrompt.prompt();
+  
+            deferredPrompt.userChoice.then((choiceResult) => {
+              if (choiceResult.outcome === 'accepted') {
+                console.log('Usuario aceptó la instalación');
+              } else {
+                console.log('Usuario rechazó la instalación');
+              }
+  
+              deferredPrompt = null;
+            });
           } else {
-            console.log('Usuario rechazó la instalación');
+            console.log('Usuario eligió "Más tarde"');
           }
-
-          deferredPrompt = null;
-        });
-      } else {
-        console.log('Usuario eligió "Más tarde"');
-      }
-    };
-
-    window.addEventListener('beforeinstallprompt', (event) => {
-      event.preventDefault();
-      deferredPrompt = event;
-      showInstallPrompt();
-    });
-  }, []);
+        }
+      };
+  
+      window.addEventListener('beforeinstallprompt', (event) => {
+        event.preventDefault();
+        deferredPrompt = event;
+  
+        // Llama automáticamente a showInstallPrompt después de 24 segundos
+        setTimeout(() => {
+          showInstallPrompt();
+        }, 24000); // 24 segundos en milisegundos
+      });
+    }, []);
 
   return (
     <div className="App">
