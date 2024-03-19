@@ -637,6 +637,7 @@ main {
 
  .info-credits > span {
     margin-bottom: 1.5rem;
+    padding-left: 2rem;
   }
 }
 
@@ -703,7 +704,7 @@ main {
 
  ul {
   margin-top: -1.8rem;
-  padding-left: 30px;
+  padding: 0px 15px;
  }
 }
 
@@ -766,6 +767,7 @@ span {
 
  span {
   margin: 0;
+  padding-right: 1.5rem;
  }
 }
 
