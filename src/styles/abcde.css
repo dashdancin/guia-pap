@@ -852,7 +852,7 @@ span {
  .dont_symbol {
   width: 20px;
   height: 20px;
-  margin: 5px 20px 0px 0px;
+  margin: 0px 20px;
  }
 
  .dont_element > p {
